@@ -12,7 +12,7 @@ This is a basic Memory Game project as you would know it from your childhood. Th
 
 ## Instructions
 
-To play the game download the contents of the repository and open `index.html` in your internet browser. 
+To play the game visit the following site : https://mahajan007.github.io/memorygame.github.io/
 
 ## Project contents
 
