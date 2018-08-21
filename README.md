@@ -1,20 +1,34 @@
 # Memory Game Project
 
+This is a basic Memory Game project as you would know it from your childhood. There are 8 pairs of cards, you win if you find all pairs in less than 70 moves. Your score is displayed in upper left corner in a form of stars and it depends on the amount of moves it took you to win the game.
+
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [Project contents](#project-contents)
+* [Bugs](#Bugs)
 * [Contributing](#contributing)
+* [License](#license)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To play the game download the contents of the repository and open `index.html` in your internet browser. 
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Project contents
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+The project is structured as followed:
+
+* main folder contains the actual html page with the game, README amd other technical files
+* `/css` folder contains the styling of the page
+* `/js` folder contains the javascript file describing the mechanics of the game as well as minified version of the jQuery library
+* `/img` folder contains the background image
+
+The structure of the folders should be preserved for the website to work properly.
+
+## Bugs
+
+The mechanics of the game is not perfect when the user clicks on cards very fast. Sometimes the recognition of which cards are matched and which are not can get mixed up. Best not to click on cards too fast and wait for the game to change the color of the cards if the match is found.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+This repository is my personal project, which is a part of Udacity Front End Web development nanodegree. In principal I would like to develop it on my own, but usefull tips and additions to the code are welcome.
